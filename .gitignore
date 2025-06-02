@@ -2,4 +2,38 @@
 bin/
 obj/
 debug/
+
+# Ignore Visual Studio cache
 .vs/
+
+# Ignore NuGet-generated files
+*.nuget.cache
+*.dgspec.json
+*.g.props
+*.g.targets
+*.assets.json
+
+# Ignore debug compilation files
+*.AssemblyAttributes.cs
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.CoreCompileInputs.cache
+*.FileListAbsolute.txt
+*.editorconfig
+*.genruntimeconfig.cache
+
+# Ignore test output
+AuditEventService.Tests/bin/
+AuditEventService.Tests/obj/
+
+# Ignore main project build files
+AuditEventService/bin/
+AuditEventService/obj/
+
+# Ignore JSON config files (if they should not be tracked)
+AuditEventService/*.runtimeconfig.json
+AuditEventService.Tests/*.runtimeconfig.json
+
+# Ignore Copilot and IDE-specific metadata
+.vs/AuditeventService/
