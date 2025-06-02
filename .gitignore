@@ -35,5 +35,4 @@ AuditEventService/obj/
 AuditEventService/*.runtimeconfig.json
 AuditEventService.Tests/*.runtimeconfig.json
 
-# Ignore Copilot and IDE-specific metadata
 .vs/AuditeventService/
