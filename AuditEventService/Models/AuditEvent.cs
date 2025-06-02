@@ -15,14 +15,14 @@ namespace AuditeventService.Models
 
         [Required(ErrorMessage = "Service name is required.")]
         [StringLength(100, ErrorMessage = "Service name cannot exceed 100 characters.")]
-        public string ServiceName { get; set; }
+        public string? ServiceName { get; set; }
 
         [JsonConverter(typeof(JsonStringEnumConverter))]
         [Required(ErrorMessage = "Event type is required.")]
         public EventType EventType { get; set; }
 
         [Required(ErrorMessage = "Payload cannot be empty.")]
-        public string Payload { get; set; }
+        public string? Payload { get; set; }
     }
 
 

@@ -14,12 +14,13 @@ Follow these steps to set up the project on your local machine.
     dotnet restore
 4. Run application
    ```sh
-   dotnet run
+   dotnet build
+   dotnet run --project AuditEventService/AuditEventService.csproj
 
 
 ### API Requests
 You can view the API requests locally by running the application and visiting:
-   http://localhost:5000/swagger/index.html
+   http://localhost:[PORT]/swagger/index.html
 
 ### Assumptions and Areas for Improvement
 Assumptions
