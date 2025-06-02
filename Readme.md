@@ -27,6 +27,7 @@ Assumptions
 - The application runs locally and is not deployed.
 - Events are stored in memory
 - Paging works with default values for page size.
+  
 Areas for Improvement
 - Implement a database for persistent storage.
 - Add authentication (JWT or OAuth) for secure API access.
